@@ -1,13 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Lab One</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-        <script src="main.js" async></script>
+        <link href="main.css" rel="stylesheet">
+        <title>Lab One</title>
+        <script src="main.js" async></script> <!-- Requirement 2 -->
+        
     </head>
     <body>
+        <div class="window">
+            <h1>Lab One</h1>
+            <p>(Hint)Scroll to view the long list & select different the other target from dropdown menu.</p>
+            <select class="form-select">
+                <option selected value="learner">Student</option>
+                <option value="instructor">Instructor</option>
+            </select>
+            <div id="welcome" class="greet">
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
         
     </body>
 </html>
